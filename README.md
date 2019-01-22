@@ -27,59 +27,7 @@ B1 Réseau 2018 - TP3
 ## 3. Premier Boot
 ![alt text](CENTOS4.png "Désactivez SElinux")
 
-
-## 4.Configuration réseau d'une machine CentOS
-![alt text](CENTOS5.png "CONFIGterminale")
-
-## 5.Faire joujou avec quelques commandes
-![alt text](CENTOS6.png "PING")
-
-* Pour le "curl" *
-Sur mon terminal j'ai indique "www.google.com"
-Sur mon terminal j'ai indique "www.ynov.com
-
-* Pour "dig" *
-j'ai du installer "sudo yum install bind-utils"
-Ensuite dig www.google.com ou
-dig www.ynov.com
-
-L'IP est indique à la fin du terminal donc "192.31.80.30" (google)
-L'IP est indique à la fin du terminal donc "192.55.83.30" (ynov)
-
-
-## II. Notion de ports et SSH
-
-# 1. Exploration des ports locaux
-**************************************
-* Commande utilisez "SS" <br>
-* commande utilisez pour vérifiez si ssh est bien installer. <br>
-* effectuez sur un terminal de ma VM<br>
-* "yum list installed openssh-server"
-===
-===
-*other façon de vérifier SSH
-* "ls -al /etc/ssh/sshd_config"
-===
-* voir l'état du du service SSH <br>
-* "systemctl status sshd"
-
-On indique cette commande pour seulement voir le port 22, il est bien "listen"
-"ss -lntp |grep "22""
-![alt text](CENTOS7.png "SSH")
-
-
-# 2. SSH
-<br>
-![alt text](CENTOS8.png "PING")
-
-
-***#3. Firewall***
-******************
-
-
-===
-
-**4. Configuration Réseau d'une machineCentOs**
+## 4. Configuration Réseau d'une machineCentOs
 
 ###### a. utiliser une commande pour prouver que vous avez Internet depuis la VM
 
@@ -137,9 +85,7 @@ Que ce soit avec sudo yum install wget ou sudo yum install binds-utils, impossib
 
 Idem ci-dessus pour dig
 
-***II. Notion de ports et SSH***
-
-**1. Exploration des ports locaux**
+## II. Notion de ports et SSH
 
 * Pour cette partie, j'ai fait un SS -altnp4, voilà le résultat
 
@@ -159,7 +105,10 @@ Ensuite, j'ai refait une commande ss -t -l -4 -n
 
 ![alt text](https://github.com/FredYnov/B1-Reseau-tp3/blob/master/Capture%20ecran/Capture%209.png)
 
-  *B. Netcat
+
+***#3. Firewall***
+******************
+
 
 
 ***III. Routage Statique***

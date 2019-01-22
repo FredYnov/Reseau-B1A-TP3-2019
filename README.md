@@ -135,7 +135,7 @@ Preuve avec `sestatus`
 Je suis PC1 et j'ai ping l'IP du PC2
 Nous avons pu nous pinguer entre les 2 macs sur le réseau 12 via le cable.
 
-![alt text](pingmathisr12)
+![alt text](pingmathisr12.png)
 
 **Prepartion avec virtualbox**
 

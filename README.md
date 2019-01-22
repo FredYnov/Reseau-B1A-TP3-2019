@@ -150,7 +150,7 @@ Modification de l'adresse IP sur la VM avec Nano.
 
 J'ai réussi à ping mon PC (PC1) avec ma VM (VM1). 
 
-![alt text](PingPC1VM1.png)
+![alt text](PingVM1PC1.png)
 
 Observation des tables de routage sur tous les hôtes:
 

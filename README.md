@@ -117,7 +117,7 @@ Ensuite, j'ai refait une commande ss -t -l -4 -n
 
  Vos carte Ethernet doivent être dans le réseau 12 : 192.168.112.0/30
  
- ** Desactivation de SELinux
+ **Desactivation de SELinux
  
  Pour desactiver SELinux on a fait sudo `setenforce 0` , puis on a modifier le fichier `/etc/selinux/config`.
 

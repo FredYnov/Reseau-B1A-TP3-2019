@@ -106,14 +106,14 @@ Ensuite, j'ai refait une commande ss -t -l -4 -n
 ![alt text](https://github.com/FredYnov/B1-Reseau-tp3/blob/master/Capture%20ecran/Capture%209.png)
 
 
-***#3. Firewall***
+### 3. Firewall
 ******************
 
 
 
-***III. Routage Statique***
+# III. Routage Statique
 
-**1. Préparation des hôtes (vos PCs)**
+### 1. Préparation des hôtes (vos PCs)
 
-  *Vos carte Ethernet doivent être dans le réseau 12 : 192.168.112.0/30
+ Vos carte Ethernet doivent être dans le réseau 12 : 192.168.112.0/30
 

@@ -125,6 +125,6 @@ Ensuite, j'ai refait une commande ss -t -l -4 -n
 
 Preuve avec `sestatus`
 
-![alt text](sestatus permissive.png)
+![alt text](sestatuspermissive.png)
 
 

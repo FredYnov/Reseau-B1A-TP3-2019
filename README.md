@@ -2,8 +2,9 @@ B1 Réseau 2018 - TP3
 
 
 <meta charset="UTF-8">
-<p> Mathis BIANCO B1A </p> 
-<p> Sacha Sallès </p> 
+Mathis BIANCO  
+Sascha SALLES
+Frederic CHARRUYER
 
 **B1-Réseau-2018 TP3**
 -----------------
@@ -165,7 +166,7 @@ Sur mac la fameuse commande magique pour activer le routage, toute droit issue d
 ![alt text](activroutage.png)
 
 
-**Configuration du routage
+**Configuration du routage**
 
 BILAN
 

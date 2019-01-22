@@ -127,17 +127,17 @@ Preuve avec `sestatus`
 
 ![alt text](sestatuspermissive.png)
 
-**Check
+**Check**
 -----------------
 
-**Prepartion avec le cable
+**Prepartion avec le cable**
 
 Je suis PC1 et j'ai ping l'IP du PC2
 Nous avons pu nous pinguer entre les 2 macs sur le réseau 12 via le cable.
 
 ![alt text](pingmathisr12)
 
-**Prepartion avec virtualbox
+**Prepartion avec virtualbox**
 
 Nous avons été sur VB dans file, Host Network Manager, puis avons configuré nos IP des réseaux Host Only.
 J'ai pris l'ip suivante `192.168.101.1`sur le réseau `192.168.101.0/24`.
@@ -146,7 +146,7 @@ Modification de l'adresse IP sur la VM avec Nano.
 
 ![alt text](IpsurVM.png)
 
-**Check
+**Check**
 
 J'ai réussi à ping mon PC (PC1) avec ma VM (VM1). 
 
@@ -190,8 +190,5 @@ La route est crée, et mon PC1 peut ping `192.168.102.1`
 
 Nous ne sommes pas parvenus à pinguer nos deux VM, une erreurs d'IP récalcitrante (on à pas réussi à redefinir l'IP sur le centOS, il nous crachait une erreur) nous à torturée l'esprit sur le mac de mathis, nous y étions presque. 
 Avec plus de temps nous l'aurions fait. Nous sommes sincèrement désolé.
-
-# 3. Configuration des noms de domaines.
-_ _ _ _ _ 
 
 
